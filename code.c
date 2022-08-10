@@ -5,11 +5,11 @@ int main() {
     int var1, var2, var3;
     /*Pedimos los numeros a los usuarios 
     para asignar valor a las variables;*/
-    printf("Introduzca el primer valor: \n");
+    printf("Introduzca el primer valor: (Entero) \n");
     scanf("%d", &var1);
-    printf("Introduzca el segundo valor: \n");
+    printf("Introduzca el segundo valor: (Entero) \n");
     scanf("%d", &var2);
-    printf("Introduzca el tercer valor: \n");
+    printf("Introduzca el tercer valor: (Entero) \n");
     scanf("%d", &var3);
     // Comparaciones
     if(var1>var2 && var1>var3){
